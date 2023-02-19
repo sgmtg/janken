@@ -1,0 +1,55 @@
+body{
+	display:flex;
+	height:120vh;
+	flex-direction:column;/* 縦に並べる */
+	/* justify-content:space-around; */
+    /* 横並びした要素どうしの間隔を一定に開ける値。 */
+	align-items:center;/* 全てのアイテムを中央付近にまとめる */
+	font-family: 'DotGothic16', sans-serif;
+	background:#b1b6b6;
+	color:rgb(0, 0, 0);
+
+
+}
+
+
+form{
+	font-size:4vmin;
+}
+input{
+	width:4vmin;
+	height:4vmin;
+	position:relative;
+	top:1px;
+}
+button{
+	margin-top:3vmin;
+	width:25vmin;
+	height:8vmin;
+	font-size:5vmin;
+	font-family: 'DotGothic16', sans-serif;
+	color:#333;
+}
+ul{
+    width: 100vmin;
+    list-style: none;    /* 中黒いらない */
+	display:flex;
+    justify-content: space-around;    /* 横並びした要素どうしの間隔を一定に開ける値。 */
+	text-align: center;
+    padding-bottom: 1vmin;
+}
+li {
+    width: 45%;
+    font-size:3vmin;
+  }
+img{
+	width:100%;
+}
+p.small{
+	font-size:2vmin;
+}
+
+p{
+    margin-top:0vmin;
+	font-size:7vmin;
+}
